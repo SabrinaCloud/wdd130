@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&display=swap');
+:root {
+    --primary-color: #E63946;
+    --secondary-color: #FAFAEE;
+    --accent1-color: #A8DADC;
+    --accent2-color: #457B9D;
+    --heading-font: 'KalamLight 300', serif;
+    --paragraph-font: 'KalamBold 700',serif;
+    --nav-background-color: #86939b;
+    --nav-link-color:#A8DADC;
+    --nav-hover-link-color: #A8DADC;
+    --nav-hover-background-color: #457B9D;
+}
+body {
+    width : 800px;
+    }
+    .hero {
+    position : relative;
+    }
+    .hero img {
+    display : block;
+    width : 100%;
+    height : auto;
+    }
+    h1 {
+    position : absolute;
+    top : 0;
+    left : 200px;
+    color : var(--accent2-color);
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    opacity: 50%;
+    }
+    h2 {
+    color : var(--primary-color);
+    }
+    article {
+    position : absolute;
+    bottom : 0;
+    left : 0;
+    }
+    article img {
+    float : right;
+    max-width : 150px;
+    height : auto;
+
+    }
+    article p {
+    padding: 20px;
+    color: var(--accent1-color);
+    background-color: #ffffff;
+    opacity: 70%;
+    }
+
+    p {
+    padding : 15px;
+    }
+
+    section img {
+    padding: 15px;
+    max-width : 400px;
+    height : auto;
+    }
+
+    footer {
+        position: absolute;
+        color: var(--accent2-color)
+    }
+
+    footer img {
+     width: 30px;
+     height: 30px;   
+    }
