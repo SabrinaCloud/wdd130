@@ -72,6 +72,7 @@ header img {
 header nav {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 nav a {
@@ -155,7 +156,7 @@ footer {
 }
 
 .sociallinks {
-    justify-items: end;
+    justify-items: center;
     padding: 20px;
 }
 
@@ -165,5 +166,5 @@ footer {
 }
 
 .sociallinks a img {
-    width: 15%;
+    max-width: 30px;
 }
